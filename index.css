@@ -155,3 +155,188 @@
 .intro-component-signup-form p > b{
     color: var(--color-red);
 }
+
+@media (max-width: 1400px){
+    .intro-component-signup-master{
+        padding: 6rem;
+    }
+
+    .try-free-btn{
+        width: 100%;
+    }
+
+    .intro-component-signup-form{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px){
+    .intro-component-signup-master{
+        padding: 6rem 4rem;
+    }
+
+    .try-free-btn{
+        width: 100%;
+    }
+
+    .intro-component-signup-form{
+        width: 100%;
+    }
+
+    .intro-signup-heading{
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1000px){
+    .intro-component-signup-master{
+        padding: 4rem 2rem;
+    }
+
+    .try-free-btn{
+        width: 100%;
+    }
+
+    .intro-component-signup-form{
+        width: 100%;
+    }
+
+    .intro-signup-heading{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 800px){
+    .intro-component-signup-master{
+        padding: 4rem 2rem;
+        gap: 1rem;
+    }
+
+    .try-free-btn{
+        width: 100%;
+    }
+
+    .intro-component-signup-form{
+        width: 100%;
+    }
+
+    .intro-signup-heading{
+        font-size: 2.8rem;
+    }
+
+    .intro-signup-paragraph{
+        font-size: .9rem;
+        padding: 0;
+    }
+}
+
+@media (max-width: 700px){
+    .intro-component-signup-master{
+        padding: 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .try-free-btn{
+        width: 100%;
+    }
+
+    .intro-component-signup-text{
+        width: 30%;
+    }
+
+    .intro-component-signup-form-container{
+        width: 60%;
+    }
+
+    .intro-component-signup-form{
+        width: 100%;
+    }
+
+    .intro-signup-heading{
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 0;
+    }
+
+    .intro-signup-paragraph{
+        font-size: .8rem;
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px){
+    .intro-component-signup-master{
+        height: fit-content;
+        flex-direction: column;
+        padding: 4rem 2rem;
+        gap: 3rem;
+    }
+
+    .try-free-btn{
+        width: 100%;
+    }
+
+    .intro-component-signup-text{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .intro-component-signup-form-container{
+        width: 100%;
+    }
+
+    .intro-component-signup-form{
+        width: 100%;
+    }
+
+    .intro-signup-heading{
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 0;
+    }
+
+    .intro-signup-paragraph{
+        font-size: .8rem;
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px){
+    .intro-component-signup-master{
+        height: fit-content;
+        flex-direction: column;
+        padding: 4rem 1.5rem;
+        gap: 3rem;
+    }
+
+    .try-free-btn{
+        width: 100%;
+    }
+
+    .intro-component-signup-text{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .intro-component-signup-form-container{
+        width: 100%;
+    }
+
+    .intro-component-signup-form{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .intro-signup-heading{
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 0;
+    }
+
+    .intro-signup-paragraph{
+        font-size: .8rem;
+        padding: 0;
+    }
+}
