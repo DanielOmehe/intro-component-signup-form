@@ -19,5 +19,139 @@
 }
 
 .intro-component-signup-master{
-    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url("images/bg-intro-desktop.png"), linear-gradient(135deg, hsla(0, 100%, 74%, 0.918), hsla(0, 100%, 74%, 0.938));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 10rem;
+    gap: 3rem;
+}
+
+.intro-component-signup-text{
+    width: 50%;
+}
+
+.intro-signup-heading{
+    font-size: 4rem;
+    color: #fff;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.intro-signup-paragraph{
+    font-size: var(--font-size);
+    color: #fff;
+    padding-right: 3rem;
+}
+
+.intro-component-signup-form-container{
+    width: 50%;
+    height: 100%;
+}
+
+.try-free-btn{
+    width: 90%;
+    padding: 1rem 0;
+    border-radius: .5rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: var(--font-size);
+    background-color: var(--color-blue);
+    border: none;
+    outline: none;
+    box-shadow: 0 8px 5px var(--color-dark-blue);
+    margin-bottom: 1.5rem;
+}
+
+.intro-component-signup-form{
+    width: 90%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.form-input-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+    position: relative;
+}
+
+.input-box{
+    width: 100%;
+}
+
+.intro-message{
+    display: none;
+}
+
+.intro-message.error{
+    margin: .5rem 1rem 0 0;
+    display: block;
+    color: red;
+    font-size: var(--font-size);
+    font-weight: 500;
+    text-align: right;
+}
+
+.form-input{
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    border: 1px solid var(--color-grayish-blue);
+    font-weight: 600;
+    font-size: var(--font-size);
+}
+
+.form-input.error{
+    border: 2px solid var(--color-red);
+}
+
+.icon-error{
+    display: none;
+}
+
+.icon-error.error{
+    display: block;
+    position: absolute;
+    right: 1.6rem;
+}
+
+.intro-form-submit-btn{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: var(--color-green);
+    border-radius: .5rem;
+    border: none;
+    color: #fff;
+    font-size: var(--font-size);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    box-shadow: 0 3px 5px var(--color-dark-blue);
+}
+
+.intro-form-submit-btn:hover{
+    opacity: .8;
+}
+
+.intro-component-signup-form p{
+    color: var(--color-grayish-blue);
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.intro-component-signup-form p > b{
+    color: var(--color-red);
 }
