@@ -88,17 +88,19 @@
     width: 100%;
 }
 
-.intro-message{
+.error-message{
     display: none;
 }
 
-.intro-message.error{
+.error-message.error{
     margin: .5rem 1rem 0 0;
     display: block;
-    color: red;
-    font-size: var(--font-size);
+    color: var(--color-red);
+    font-size: .8rem;
     font-weight: 500;
     text-align: right;
+    font-style: italic;
+    text-transform: capitalize;
 }
 
 .form-input{
@@ -112,6 +114,10 @@
     font-size: var(--font-size);
 }
 
+.form-input:focus{
+    border: 1px solid var(--color-dark-blue);
+}
+
 .form-input.error{
     border: 2px solid var(--color-red);
 }
@@ -123,7 +129,8 @@
 .icon-error.error{
     display: block;
     position: absolute;
-    right: 1.6rem;
+    right: 1.2rem;
+    top: 1rem;
 }
 
 .intro-form-submit-btn{
@@ -270,6 +277,10 @@
         flex-direction: column;
         padding: 4rem 2rem;
         gap: 3rem;
+        background: url("images/bg-intro-mobile.png"), linear-gradient(135deg, hsla(0, 100%, 74%, 0.918), hsla(0, 100%, 74%, 0.938));
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .try-free-btn{
@@ -306,8 +317,12 @@
     .intro-component-signup-master{
         height: fit-content;
         flex-direction: column;
-        padding: 4rem 1.5rem;
+        padding: 4rem 1rem;
         gap: 3rem;
+        background: url("images/bg-intro-mobile.png"), linear-gradient(135deg, hsla(0, 100%, 74%, 0.918), hsla(0, 100%, 74%, 0.938));
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .try-free-btn{
